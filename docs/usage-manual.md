@@ -4,7 +4,7 @@
 
 Clone the repository via its ssh url:
 
--   `git clone git@github.com:[REPLACE_WITH_WORKING_REPO_URL]`
+-   `git clone git@github.com:spiced-academy/honey-web-dev.git`
 
 ## Steps for every day
 
