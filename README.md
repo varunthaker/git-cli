@@ -40,8 +40,8 @@ We have a target of 540 teaching minutes (= 9 hours or 12 teaching units (45 min
 | 0:30     | 30               | 9:00 - 9:30   | Student Recap            |
 | 0:45     | 45               | 9:30 - 10:15  | Session                  |
 | 1:30     | 90               | 10:15 - 11:45 | Active Learning          |
-| 0:30     | 30               | 11:45 - 12:15 | Recap                    |
-| 0:45     | 45               | 12:15 - 13:00 | Guest Lecture / Breather |
+| 0:30     | 30               | 11:45 - 12:00 | Recap                    |
+| 0:45     | 45               | 12:00 - 13:00 | Guest Lecture / Breather |
 | 1:00     | –                | 13:00 - 14:00 | Break                    |
 | 0:30     | 30               | 14:00 - 14:30 | Recap / Q&A              |
 | 0:45     | 45               | 14:30 - 15:15 | Session                  |
@@ -271,27 +271,23 @@ We have a target of 540 teaching minutes (= 9 hours or 12 teaching units (45 min
 - [Backend MongoDB](./sessions/backend-mongodb)
 - [Backend Read](./sessions/backend-read)
 
-#### Day 42 - 03/10/2023
-
-- Non Teaching Day
-
-#### Day 43 - 04/10/2023
+#### Day 42 - 04/10/2023
 
 - [Backend Create](./sessions/backend-create)
 - [Backend Update and Delete](./sessions/backend-update-and-delete)
 
-#### Day 44 - 05/10/2023
+#### Day 43 - 05/10/2023
 
 - [Backend MongoDB Atlas](./sessions/backend-mongodb-atlas)
 - [Recap: Project 6](./sessions/recap-project-6/)
 
-#### Day 45 - 06/10/2023
+#### Day 44 - 06/10/2023
 
 - Presentation: Project 6
 
 ### Phase 5: Agile methods
 
-#### Day 46 - 09/10/2023
+#### Day 45 - 09/10/2023
 
 - [Agile Workflow](./sessions/agile-workflow-and-user-stories)
 - Introduction Capstone Forum
@@ -300,62 +296,62 @@ We have a target of 540 teaching minutes (= 9 hours or 12 teaching units (45 min
 
 ### Phase 6: Final Project
 
-#### Day 47 - 10/10/2023
+#### Day 46 - 10/10/2023
 
 - Final Project
 
-#### Day 48 - 11/10/2023
+#### Day 47 - 11/10/2023
 
 - Final Project
 
-#### Day 49 - 12/10/2023
+#### Day 48 - 12/10/2023
 
 - Final Project
 
-#### Day 50 - 13/10/2023
+#### Day 49 - 13/10/2023
 
 - Final Project
 
-#### Day 51 - 16/10/2023
+#### Day 50 - 16/10/2023
 
 - Final Project
 
-#### Day 52 - 17/10/2023
+#### Day 51 - 17/10/2023
 
 - Final Project
 
-#### Day 53 - 18/10/2023
+#### Day 52 - 18/10/2023
 
 - Final Project
 
-#### Day 54 - 19/10/2023
+#### Day 53 - 19/10/2023
 
 - Final Project
 
-#### Day 55 - 20/10/2023
+#### Day 54 - 20/10/2023
 
 - Final Project
 
-#### Day 56 - 23/10/2023
+#### Day 55 - 23/10/2023
 
 - Final Project
 
-#### Day 57 - 24/10/2023
+#### Day 56 - 24/10/2023
 
 - Final Project
 
-#### Day 58 - 25/10/2023
+#### Day 57 - 25/10/2023
 
 - Final Project
 
-#### Day 59 - 26/10/2023
+#### Day 58 - 26/10/2023
 
 - Final Project
 
-#### Day 60 - 27/10/2023
+#### Day 59 - 27/10/2023
 
 - Final Project
 
-#### Day 61 - 30/10/2023
+#### Day 60 - 30/10/2023
 
 - Graduation Day!
