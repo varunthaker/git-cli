@@ -78,7 +78,27 @@ Visual Studio Code is the code editor that we will use to read and write code du
       pressing <kbd>Enter</kbd>.
     - > 💡 This allows you to open a folder in Visual Studio Code from the command line by typing `code .`.
 
-## 4. Node JS
+## 4. Node Version Manager
+
+Node version Manager (NVM) is tool for managing Node version on your computer.
+
+-   To install NVM, please paste and run the following command in your terminal:
+
+    ```bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+    ```
+
+-   If this command give you an error, try this command instead:
+    ```bash
+    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+    ```
+-   to confirm that nvm is install correctly run the next command, this should
+    show the version of nvm install
+    ```bash
+    nvm -v
+    ```
+
+## 5. Node JS
 
 ### Mac and Windows (when not using WSL)
 
@@ -114,7 +134,7 @@ sudo npm install -g cross-env
 
 Please enter your password if requested.
 
-## 5. Install Git
+## 6. Install Git
 
 ### Windows (if you are NOT using WSL)
 
@@ -137,7 +157,7 @@ sudo apt-get install git
 
 Please type your password if prompted.
 
-## 6. Configure Git
+## 7. Configure Git
 
 When you've made sure Git is installed, you should set it up correctly by following [these instructions](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#Your-Identity). The important commands to run are the following:
 
@@ -153,7 +173,7 @@ git config --global user.email YOUREMAIL@example.com
 
 Replace `YOUREMAIL@example.com` with your email address.
 
-## 7. GitHub authentication: SSH setup
+## 8. GitHub authentication: SSH setup
 
 Sometimes you will interact with GitHub via the command line. GitHub will need to know who you are - so you will need to **authenticate**. The newest way to do this is with [personal access tokens](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) over HTTPS. An alternative is to use [SSH to connect](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Please follow these steps to set this up.
 
@@ -203,7 +223,7 @@ Then go to [the page on GitHub for adding a new key](https://github.com/settings
 
 Please follow [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to test if your SSH key has been set up correctly. If it hasn't, please get help from a teacher ☺️
 
-## 8. Generate a Github token for accessing challenges on the terminal
+## 9. Generate a Github token for accessing challenges on the terminal
 
 You will soon need to download your tasks and challenges to your local computer. For this, you need to generate a token on github.com and copy add it on your local computer. Then, it will be used when copying the tasks/challenges to your local computer.
 
