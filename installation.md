@@ -80,7 +80,7 @@ Visual Studio Code is the code editor that we will use to read and write code du
 
 ## 4. Node Version Manager
 
-Node version Manager (NVM) is tool for managing Node version on your computer.
+Node Version Manager (NVM) is a tool for managing Node versions on your computer.
 
 -   To install NVM, please paste and run the following command in your terminal:
 
@@ -88,12 +88,13 @@ Node version Manager (NVM) is tool for managing Node version on your computer.
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
     ```
 
--   If this command give you an error, try this command instead:
+-   If this command gives you an error, try this command instead:
+
     ```bash
     wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
     ```
--   to confirm that nvm is install correctly run the next command, this should
-    show the version of nvm install
+
+-   To confirm that NVM is installed correctly, run the next command. This should show the version of NVM installed:
     ```bash
     nvm -v
     ```
