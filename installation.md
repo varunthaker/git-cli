@@ -25,10 +25,10 @@ You can use the integrated terminal installed in your Linux distribution.
 
 ### Linux (including WSL)
 
--   First, install `zsh` as follows:
--   Open your terminal (WSL users, please be sure to always use the Ubuntu/WSL terminal! Never the Windows terminal)
--   Paste the following command, and press Enter. Type in your password if asked.
--   Please note that some systems will not show any characters as you type your password -- this is normal!
+- First, install `zsh` as follows:
+- Open your terminal (WSL users, please be sure to always use the Ubuntu/WSL terminal! Never the Windows terminal)
+- Paste the following command, and press Enter. Type in your password if asked.
+- Please note that some systems will not show any characters as you type your password -- this is normal!
 
 ```bash
 sudo apt-get install zsh
@@ -36,13 +36,13 @@ sudo apt-get install zsh
 
 ### All Systems: Linux (including WSL), MacOS
 
--   To install Oh My Zsh, please paste and run the following command in your terminal:
+- To install Oh My Zsh, please paste and run the following command in your terminal:
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
--   At a later stage, if you want to update everything (e.g. plugins) in Oh My Zsh to the latest version:
+- At a later stage, if you want to update everything (e.g. plugins) in Oh My Zsh to the latest version:
 
 ```bash
 omz update
@@ -74,50 +74,61 @@ Visual Studio Code is the code editor that we will use to read and write code du
 4. Allow opening VS Code with the `code` command from the terminal:
     - Open the command palette by pressing <kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> (Mac) or <kbd>⇧</kbd><kbd>Ctrl</kbd><kbd>P</kbd> (Windows/Linux).
     - Type "shell command" into the prompt.
-    - Select _"Shell Command: Install 'code' command in PATH"_ and confirm the installation by
-      pressing <kbd>Enter</kbd>.
+    - Select _"Shell Command: Install 'code' command in PATH"_ and confirm the installation by pressing <kbd>Enter</kbd>.
     - > 💡 This allows you to open a folder in Visual Studio Code from the command line by typing `code .`.
 
 ## 4. Node Version Manager
 
-Node Version Manager (NVM) is a tool for managing Node versions on your computer.
+Node version Manager (nvm) is a tool for installing and managing different versions of Node on your computer.
 
--   To install NVM, please paste and run the following command in your terminal:
+### Installing nvm
 
-    ```bash
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
-    ```
-
--   If this command gives you an error, try this command instead:
-
-    ```bash
-    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
-    ```
-
--   To confirm that NVM is installed correctly, run the next command. This should show the version of NVM installed:
-    ```bash
-    nvm -v
-    ```
-
-## 5. Node JS
-
-### Mac and Windows (when not using WSL)
-
--   Go to [nodejs.org](https://nodejs.org). Download and install the latest **LTS** (Long Term Support) version of Node. Installation should be quite straightforward.
-
-### Linux (including WSL)
-
-To install Node in Ubuntu (including WSL), please run each of the following commands:
+- To install nvm, please paste and run the following command in your terminal:
 
 ```bash
-sudo apt-get update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
 ```
+
+- If this command gives you an error, try the following command instead:
 
 ```bash
-sudo apt-get install nodejs npm
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
 ```
 
-Please enter your password if requested.
+- After the command above has completed, please **completely close** and re-open your terminal app. On a Mac, please type <kbd>⌘</kbd><kbd>Q</kbd>.
+- To confirm that nvm is installed correctly, run the following command. It should show the version of nvm which you just installed:
+
+```bash
+nvm -v
+```
+
+- If you don't see a message with a version number of nvm, please ask a teacher for help before moving on.
+
+### Installing Node with nvm
+
+- Now that nvm is installed, we'll use it to install a version of Node JS.
+- Please run the following command to install the "Long-Term Support" (LTS) version of Node JS:
+
+```bash
+nvm install --lts
+```
+
+- If you see any error messages, please ask a teacher for help.
+- Now, tell nvm to always use this version of Node in your terminal in future:
+
+```bash
+nvm use --lts
+```
+
+### Check if it works
+
+- Test this by opening a new terminal window, and running the following command:
+
+```bash
+node -v
+```
+
+- You should see a version number printed. If you don't, please ask a teacher for help.
 
 ### Additional packages to install globally
 
@@ -127,15 +138,7 @@ This package will be used later to help run automated tests
 npm install -g cross-env
 ```
 
-If you see an error message about not having permission to do this action, please run the following instead:
-
-```bash
-sudo npm install -g cross-env
-```
-
-Please enter your password if requested.
-
-## 6. Install Git
+## 5. Install Git
 
 ### Windows (if you are NOT using WSL)
 
@@ -143,12 +146,12 @@ Download and install the Git For Windows application from [here](https://gitforw
 
 ### Mac
 
--   If you are using a relatively recent version of Mac's operating system, it is quite likely that you already have Git installed.
--   To check it, open the Terminal.
-    -   First, open Spotlight search (you can do this by typing <kbd>⌘</kbd><kbd>Spacebar</kbd>)
-    -   Next, type _terminal_. If you installed `iTerm2` earlier, type `iterm2`. Press <kbd>Enter</kbd> or select the application with your touchpad.
--   In the terminal, type `git` and press `<Enter>`. If you see a list of commands, Git is installed. If Git is not installed, you will be prompted to install it.
--   You can also install Git [here](http://git-scm.com/download/mac).
+- If you are using a relatively recent version of Mac's operating system, it is quite likely that you already have Git installed.
+- To check it, open the Terminal.
+  - First, open Spotlight search (you can do this by typing <kbd>⌘</kbd><kbd>Spacebar</kbd>)
+  - Next, type _terminal_. If you installed `iTerm2` earlier, type `iterm2`. Press <kbd>Enter</kbd> or select the application with your touchpad.
+- In the terminal, type `git` and press `<Enter>`. If you see a list of commands, Git is installed. If Git is not installed, you will be prompted to install it.
+- You can also install Git [here](http://git-scm.com/download/mac).
 
 ### Linux (including WSL)
 
@@ -158,7 +161,7 @@ sudo apt-get install git
 
 Please type your password if prompted.
 
-## 7. Configure Git
+## 6. Configure Git
 
 When you've made sure Git is installed, you should set it up correctly by following [these instructions](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup#Your-Identity). The important commands to run are the following:
 
@@ -174,7 +177,7 @@ git config --global user.email YOUREMAIL@example.com
 
 Replace `YOUREMAIL@example.com` with your email address.
 
-## 8. GitHub authentication: SSH setup
+## 7. GitHub authentication: SSH setup
 
 Sometimes you will interact with GitHub via the command line. GitHub will need to know who you are - so you will need to **authenticate**. The newest way to do this is with [personal access tokens](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) over HTTPS. An alternative is to use [SSH to connect](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Please follow these steps to set this up.
 
@@ -224,22 +227,22 @@ Then go to [the page on GitHub for adding a new key](https://github.com/settings
 
 Please follow [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) to test if your SSH key has been set up correctly. If it hasn't, please get help from a teacher ☺️
 
-## 9. Generate a Github token for accessing challenges on the terminal
+## 8. Generate a Github token for accessing challenges on the terminal
 
 You will soon need to download your tasks and challenges to your local computer. For this, you need to generate a token on github.com and copy add it on your local computer. Then, it will be used when copying the tasks/challenges to your local computer.
 
 ### 1. Generate a token on GitHub.com
 
--   Go to github.com and login with your username
--   on the top right click on your profile picture and select `settings`
--   In the `settings` section scroll you need to select the `developer settings` on the left navigation on the very bottom
--   In the `developer settings` go on the left side to `Personal access tokens`. Select `Tokens (classic)`
--   Click on the top `Generate new token` -> `Generate new token (classic)`
-    -   Give the token a note like `token_for_accessing_repos`
-    -   select only the checkbox with `repo`
-    -   select an `expiration` of 90 days
-    -   click on the bottom `Generate token`
--   Copy the generated token
+- Go to github.com and login with your username
+- on the top right click on your profile picture and select `settings`
+- In the `settings` section scroll you need to select the `developer settings` on the left navigation on the very bottom
+- In the `developer settings` go on the left side to `Personal access tokens`. Select `Tokens (classic)`
+- Click on the top `Generate new token` -> `Generate new token (classic)`
+  - Give the token a note like `token_for_accessing_repos`
+  - select only the checkbox with `repo`
+  - select an `expiration` of 90 days
+  - click on the bottom `Generate token`
+- Copy the generated token
 
 ### 2. Add the generated token to your local computer
 
